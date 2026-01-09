@@ -44,9 +44,80 @@ nav a {
  font-size: 16px;
  font-weight: 700;
  color: #FFFFFF;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+
 }
 
 .btn:hover {
  background-color: chartreuse;
  color: black;
+}
+
+/* banner container styles */
+.banner-container {
+
+ background-image: url(../assets/hero-bg.png);
+ background-repeat: no-repeat;
+ margin: 0 auto;
+ width: 1600px;
+ height: 674px;
+ text-align: center;
+
+
+}
+
+.banner-content {
+ padding: 162px 500px 0 450px;
+}
+
+.radio-btn {
+ padding: 5px 10px;
+ border: none;
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ font-size: 16px;
+ font-weight: 600;
+}
+
+.banner-content h1 {
+ color: #FFFFFF;
+ font-size: 60px;
+ font-weight: bold;
+ padding-top: 10px;
+}
+
+.extra-color {
+ color: #30B868;
+}
+
+.banner-content p {
+ color: #FFFFFF;
+ font-size: 18px;
+ font-weight: 400;
+ padding: 15px 60px;
+}
+
+
+
+.banner-btn-section {
+ display: flex;
+
+ padding: 0 100px;
+}
+
+.work-btn {
+ color: #FFFFFF;
+
+ padding: 13px 16px 13px 16px;
+ border: 1px solid #FFFFFF;
+ border-radius: 5px;
+ font-size: 16px;
+ font-weight: 700;
+ background-color: rgba(0, 0, 0, 0.007);
+
+
+
 }
