@@ -182,11 +182,8 @@ nav a {
 
 }
 
-/* 000000000 */
-success-container img {
- width: 600px;
- height: 600px;
-}
+/* success container section style*/
+
 
 .success-container {
 
@@ -235,6 +232,7 @@ success-container img {
  height: 340px;
  text-align: center;
  padding-top: 100px;
+
 }
 
 .excess-contents {
@@ -253,4 +251,48 @@ success-container img {
  font-weight: 400;
  padding: 10px 0;
  color: #627382;
+}
+
+/* footer section added */
+footer {
+ width: 100%;
+ height: 348px;
+ margin-top: 100px;
+ background-color: #08213ddd;
+ text-align: center;
+}
+
+.footer-container {
+ padding: 100px 0;
+ display: flex;
+
+
+
+}
+
+footer hr {
+ width: 60%;
+}
+
+footer h3 {
+ padding-bottom: 10px;
+ font-size: 20px;
+ font-weight: 600;
+ color: #F7F6F2;
+}
+
+
+footer p {
+
+ padding-top: 20px;
+ font-size: 16px;
+ font-weight: 400;
+ color: #F7F6F2;
+}
+
+.fa-brands {
+ background-color: #FFFFFF;
+ border-radius: 5px;
+ margin-left: 10px;
+
 }
